@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.isuperred"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <!--
+ 如果你的应用打算在各个设备(手机、可穿戴、tv)，将leanback的required的值设置为false；
+    设置为ture的话你的应用只可以在使用Leanback的设备上。
+    -->
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false" />
+    <!--
+ 声明Touchscreen属性，这个看个人需要，主要是声明你的app需不需要支持触摸屏输入。
+        值得注意的是，如果你的应用打算在googleplay上架，必须在你的manifest添加此段代码，否则不予上架。
+    -->
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <application
+        android:name="com.github.isuperred.application.MyApplication"
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.github.isuperred.activity.VideoDetailActivity" />
+        <activity android:name="com.github.isuperred.activity.VideoPlayActivity" />
+        <activity
+            android:name="com.github.isuperred.activity.AppInstalledActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.github.isuperred.activity.MainActivity"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="design_width_in_dp"
+            android:value="960" />
+
+        <provider
+            android:name="me.jessyan.autosize.InitProvider"
+            android:authorities="com.github.isuperred.autosize-init-provider"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

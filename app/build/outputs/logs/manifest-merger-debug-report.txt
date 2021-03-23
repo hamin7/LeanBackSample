@@ -1,0 +1,319 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:2:1-60:12
+MERGED from [:library-player] /home/hamin/LeanbackTvSample/library-player/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.shuyu:gsyVideoPlayer-java:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/9c0b7a234448f1e5556086333a6d3a9d/AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/eb37d90e56c82298dea6f5f859e49d6f/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.leanback:leanback:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/04a45f70dc3270c5c2db25d1764baaee/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/ebf949c6a688a8988c734ef102b2c001/AndroidManifest.xml:2:1-12:12
+MERGED from [me.jessyan:autosize:1.1.2] /home/hamin/.gradle/caches/transforms-2/files-2.1/2418f085dcd400b37b0212b1bf4b27af/AndroidManifest.xml:2:1-19:12
+MERGED from [com.tencent.bugly:crashreport:3.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/13d8229539869e142e41f9237246dbfa/AndroidManifest.xml:2:1-9:12
+MERGED from [com.tencent.bugly:nativecrashreport:3.7.1] /home/hamin/.gradle/caches/transforms-2/files-2.1/63406422a7360981ee96c90d0a6770ad/AndroidManifest.xml:2:1-9:12
+MERGED from [com.andkulikov:transitionseverywhere:1.7.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/d5c5b88faeaadbb3de31b199c0cdbf73/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/cbb7f6e4bc76389cf14e46210a8d5adb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.shuyu:gsyVideoPlayer-armv7a:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/054041bfa4cccd5248f1dbe3ef3be431/AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/4dcf54429ce81aec3d99d180bb676b73/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/78adcc7532082afddc02b701cf7cea1a/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/78c4f92f0cc83a5c07cef2390c243f4f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/837d58c55ba45e1bbf613d9afa99c458/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/d873e83fbcc4bdec7e2983be89e48a94/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/90ebbf2c1a391835e66e7ef17689184d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/a6e15e52247f68dcb7dd5895780c737b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/4490e033b822f5fe0988abcbab4837af/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/158edf990e2a1338830793290814f7fb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/3a431646a01583ad004a5970a4a48453/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/f1a48552885bfd98a9c356bdfdd09935/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/8a6359dadde2236c1c77dedab735d6e0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/9ebf06899f47dc43eea154fc2b6076cd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/2d45a5929df624844b8fd6bac085094c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/66cd00d00533c6f6b69c8f906ccfc261/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/96e25bcab90aee7c5198c6d7526d82d8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/8be6401933d78170ce4561aa1e59be60/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/f13db013fe90b9256798acea1b681f35/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/1a15c496875b8c25ff1ebc869ab5e7c7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/27b9e2a1de03a3cbd5db9290e801d818/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/bdc23dd033daafa62e17234e74b8aacc/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/4135d159cd38fc5c4e76bcf3f97f2b0c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/a03d3d2c0121063644ca8504bef64d63/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/e018991850349f1adda3bdc7041654a4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/df043f9ed32de8f70a2174697924dff1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/624ad6ac7967cb100b960acabb72810d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/cda7c94972750cf95ab3eec6956c44c0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/aa2a39374fc0a418b76a918d00dc9a21/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/9bb7b2f388d63f2e2ab699fcf56726bf/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/58d87eab07d39ee6fec06cd4efd05b37/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/86989c956d4815a8bfb3d29bb1e1f58a/AndroidManifest.xml:17:1-22:12
+MERGED from [tv.danmaku.ijk.media:ijkplayer-exo:0.8.8] /home/hamin/.gradle/caches/transforms-2/files-2.1/69bf78aade7e9eb7854a6d61a05f5c1e/AndroidManifest.xml:2:1-15:12
+MERGED from [com.shuyu:gsyVideoPlayer-base:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/3ce958c5b3a63200f3d15af927de401a/AndroidManifest.xml:2:1-11:12
+MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.8.8] /home/hamin/.gradle/caches/transforms-2/files-2.1/d0aeee37be6c1a40419d4a0bd13edb44/AndroidManifest.xml:2:1-9:12
+MERGED from [com.shuyu:gsyvideoplayer-androidvideocache:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/076dd83e8cb02f9bcb519dcc02180f91/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.exoplayer:exoplayer:r1.5.11] /home/hamin/.gradle/caches/transforms-2/files-2.1/e9904511a089e76a0e3befa4f4153fb8/AndroidManifest.xml:17:1-28:12
+INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:2:1-60:12
+	package
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:4:5-35
+		INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:2:1-60:12
+		INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:2:1-60:12
+		INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:2:11-69
+	tools:ignore
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:5:5-43
+uses-permission#android.permission.INTERNET
+ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:9:22-73
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:10:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:12:22-72
+uses-permission#android.permission.READ_LOGS
+ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:13:5-15:47
+	tools:ignore
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:15:9-44
+	android:name
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:14:9-52
+uses-feature#android.software.leanback
+ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:21:9-49
+uses-feature#android.hardware.touchscreen
+ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:28:9-52
+application
+ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:31:5-58:19
+MERGED from [com.shuyu:gsyVideoPlayer-java:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/9c0b7a234448f1e5556086333a6d3a9d/AndroidManifest.xml:11:5-15:19
+MERGED from [com.shuyu:gsyVideoPlayer-java:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/9c0b7a234448f1e5556086333a6d3a9d/AndroidManifest.xml:11:5-15:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/eb37d90e56c82298dea6f5f859e49d6f/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/eb37d90e56c82298dea6f5f859e49d6f/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/ebf949c6a688a8988c734ef102b2c001/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/ebf949c6a688a8988c734ef102b2c001/AndroidManifest.xml:10:5-20
+MERGED from [me.jessyan:autosize:1.1.2] /home/hamin/.gradle/caches/transforms-2/files-2.1/2418f085dcd400b37b0212b1bf4b27af/AndroidManifest.xml:11:5-17:19
+MERGED from [me.jessyan:autosize:1.1.2] /home/hamin/.gradle/caches/transforms-2/files-2.1/2418f085dcd400b37b0212b1bf4b27af/AndroidManifest.xml:11:5-17:19
+MERGED from [com.andkulikov:transitionseverywhere:1.7.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/d5c5b88faeaadbb3de31b199c0cdbf73/AndroidManifest.xml:12:5-20
+MERGED from [com.andkulikov:transitionseverywhere:1.7.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/d5c5b88faeaadbb3de31b199c0cdbf73/AndroidManifest.xml:12:5-20
+MERGED from [com.shuyu:gsyVideoPlayer-armv7a:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/054041bfa4cccd5248f1dbe3ef3be431/AndroidManifest.xml:11:5-15:19
+MERGED from [com.shuyu:gsyVideoPlayer-armv7a:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/054041bfa4cccd5248f1dbe3ef3be431/AndroidManifest.xml:11:5-15:19
+MERGED from [androidx.core:core:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/f13db013fe90b9256798acea1b681f35/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/f13db013fe90b9256798acea1b681f35/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/27b9e2a1de03a3cbd5db9290e801d818/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/27b9e2a1de03a3cbd5db9290e801d818/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/bdc23dd033daafa62e17234e74b8aacc/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/bdc23dd033daafa62e17234e74b8aacc/AndroidManifest.xml:24:5-25:19
+MERGED from [tv.danmaku.ijk.media:ijkplayer-exo:0.8.8] /home/hamin/.gradle/caches/transforms-2/files-2.1/69bf78aade7e9eb7854a6d61a05f5c1e/AndroidManifest.xml:9:5-13:19
+MERGED from [tv.danmaku.ijk.media:ijkplayer-exo:0.8.8] /home/hamin/.gradle/caches/transforms-2/files-2.1/69bf78aade7e9eb7854a6d61a05f5c1e/AndroidManifest.xml:9:5-13:19
+MERGED from [com.shuyu:gsyvideoplayer-androidvideocache:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/076dd83e8cb02f9bcb519dcc02180f91/AndroidManifest.xml:11:5-15:19
+MERGED from [com.shuyu:gsyvideoplayer-androidvideocache:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/076dd83e8cb02f9bcb519dcc02180f91/AndroidManifest.xml:11:5-15:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/f13db013fe90b9256798acea1b681f35/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:36:9-35
+	android:label
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:35:9-41
+	tools:ignore
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:38:9-48
+	android:icon
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:34:9-45
+	android:allowBackup
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:33:9-36
+		REJECTED from [com.shuyu:gsyVideoPlayer-java:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/9c0b7a234448f1e5556086333a6d3a9d/AndroidManifest.xml:12:9-35
+		REJECTED from [com.shuyu:gsyVideoPlayer-armv7a:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/054041bfa4cccd5248f1dbe3ef3be431/AndroidManifest.xml:12:9-35
+		REJECTED from [tv.danmaku.ijk.media:ijkplayer-exo:0.8.8] /home/hamin/.gradle/caches/transforms-2/files-2.1/69bf78aade7e9eb7854a6d61a05f5c1e/AndroidManifest.xml:10:9-35
+		REJECTED from [com.shuyu:gsyvideoplayer-androidvideocache:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/076dd83e8cb02f9bcb519dcc02180f91/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:37:9-40
+	tools:replace
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:39:9-44
+	android:name
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:32:9-50
+activity#com.github.isuperred.activity.VideoDetailActivity
+ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:40:9-66
+	android:name
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:40:19-63
+activity#com.github.isuperred.activity.VideoPlayActivity
+ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:41:9-64
+	android:name
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:41:19-61
+activity#com.github.isuperred.activity.AppInstalledActivity
+ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:42:9-44:53
+	android:screenOrientation
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:44:13-50
+	android:name
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:43:13-58
+activity#com.github.isuperred.activity.MainActivity
+ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:45:9-53:20
+	android:screenOrientation
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:47:13-50
+	android:name
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:46:13-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:48:13-52:29
+action#android.intent.action.MAIN
+ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:49:17-69
+	android:name
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:49:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:51:17-77
+	android:name
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:51:27-74
+meta-data#design_width_in_dp
+ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:55:9-57:35
+	android:value
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:57:13-32
+	android:name
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:56:13-46
+uses-sdk
+INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
+INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
+MERGED from [:library-player] /home/hamin/LeanbackTvSample/library-player/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:library-player] /home/hamin/LeanbackTvSample/library-player/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.shuyu:gsyVideoPlayer-java:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/9c0b7a234448f1e5556086333a6d3a9d/AndroidManifest.xml:7:5-9:41
+MERGED from [com.shuyu:gsyVideoPlayer-java:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/9c0b7a234448f1e5556086333a6d3a9d/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/eb37d90e56c82298dea6f5f859e49d6f/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/eb37d90e56c82298dea6f5f859e49d6f/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.leanback:leanback:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/04a45f70dc3270c5c2db25d1764baaee/AndroidManifest.xml:20:5-44
+MERGED from [androidx.leanback:leanback:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/04a45f70dc3270c5c2db25d1764baaee/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/ebf949c6a688a8988c734ef102b2c001/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/ebf949c6a688a8988c734ef102b2c001/AndroidManifest.xml:6:5-8:41
+MERGED from [me.jessyan:autosize:1.1.2] /home/hamin/.gradle/caches/transforms-2/files-2.1/2418f085dcd400b37b0212b1bf4b27af/AndroidManifest.xml:7:5-9:41
+MERGED from [me.jessyan:autosize:1.1.2] /home/hamin/.gradle/caches/transforms-2/files-2.1/2418f085dcd400b37b0212b1bf4b27af/AndroidManifest.xml:7:5-9:41
+MERGED from [com.tencent.bugly:crashreport:3.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/13d8229539869e142e41f9237246dbfa/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:crashreport:3.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/13d8229539869e142e41f9237246dbfa/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.7.1] /home/hamin/.gradle/caches/transforms-2/files-2.1/63406422a7360981ee96c90d0a6770ad/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.7.1] /home/hamin/.gradle/caches/transforms-2/files-2.1/63406422a7360981ee96c90d0a6770ad/AndroidManifest.xml:5:5-7:41
+MERGED from [com.andkulikov:transitionseverywhere:1.7.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/d5c5b88faeaadbb3de31b199c0cdbf73/AndroidManifest.xml:8:5-10:41
+MERGED from [com.andkulikov:transitionseverywhere:1.7.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/d5c5b88faeaadbb3de31b199c0cdbf73/AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/cbb7f6e4bc76389cf14e46210a8d5adb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/cbb7f6e4bc76389cf14e46210a8d5adb/AndroidManifest.xml:20:5-44
+MERGED from [com.shuyu:gsyVideoPlayer-armv7a:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/054041bfa4cccd5248f1dbe3ef3be431/AndroidManifest.xml:7:5-9:41
+MERGED from [com.shuyu:gsyVideoPlayer-armv7a:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/054041bfa4cccd5248f1dbe3ef3be431/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/4dcf54429ce81aec3d99d180bb676b73/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/4dcf54429ce81aec3d99d180bb676b73/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/78adcc7532082afddc02b701cf7cea1a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/78adcc7532082afddc02b701cf7cea1a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/78c4f92f0cc83a5c07cef2390c243f4f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/78c4f92f0cc83a5c07cef2390c243f4f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/837d58c55ba45e1bbf613d9afa99c458/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/837d58c55ba45e1bbf613d9afa99c458/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/d873e83fbcc4bdec7e2983be89e48a94/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/d873e83fbcc4bdec7e2983be89e48a94/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/90ebbf2c1a391835e66e7ef17689184d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/90ebbf2c1a391835e66e7ef17689184d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/a6e15e52247f68dcb7dd5895780c737b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/a6e15e52247f68dcb7dd5895780c737b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/4490e033b822f5fe0988abcbab4837af/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/4490e033b822f5fe0988abcbab4837af/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/158edf990e2a1338830793290814f7fb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/158edf990e2a1338830793290814f7fb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/3a431646a01583ad004a5970a4a48453/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/3a431646a01583ad004a5970a4a48453/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/f1a48552885bfd98a9c356bdfdd09935/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/f1a48552885bfd98a9c356bdfdd09935/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/8a6359dadde2236c1c77dedab735d6e0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/8a6359dadde2236c1c77dedab735d6e0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/9ebf06899f47dc43eea154fc2b6076cd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/9ebf06899f47dc43eea154fc2b6076cd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/2d45a5929df624844b8fd6bac085094c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/2d45a5929df624844b8fd6bac085094c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/66cd00d00533c6f6b69c8f906ccfc261/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/66cd00d00533c6f6b69c8f906ccfc261/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/96e25bcab90aee7c5198c6d7526d82d8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/96e25bcab90aee7c5198c6d7526d82d8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/8be6401933d78170ce4561aa1e59be60/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/8be6401933d78170ce4561aa1e59be60/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/f13db013fe90b9256798acea1b681f35/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/f13db013fe90b9256798acea1b681f35/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/1a15c496875b8c25ff1ebc869ab5e7c7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/1a15c496875b8c25ff1ebc869ab5e7c7/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/27b9e2a1de03a3cbd5db9290e801d818/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/27b9e2a1de03a3cbd5db9290e801d818/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/bdc23dd033daafa62e17234e74b8aacc/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/bdc23dd033daafa62e17234e74b8aacc/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/4135d159cd38fc5c4e76bcf3f97f2b0c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/4135d159cd38fc5c4e76bcf3f97f2b0c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/a03d3d2c0121063644ca8504bef64d63/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/a03d3d2c0121063644ca8504bef64d63/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/e018991850349f1adda3bdc7041654a4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/e018991850349f1adda3bdc7041654a4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/df043f9ed32de8f70a2174697924dff1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/df043f9ed32de8f70a2174697924dff1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/624ad6ac7967cb100b960acabb72810d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/624ad6ac7967cb100b960acabb72810d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/cda7c94972750cf95ab3eec6956c44c0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/cda7c94972750cf95ab3eec6956c44c0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/aa2a39374fc0a418b76a918d00dc9a21/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/aa2a39374fc0a418b76a918d00dc9a21/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/9bb7b2f388d63f2e2ab699fcf56726bf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/9bb7b2f388d63f2e2ab699fcf56726bf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/58d87eab07d39ee6fec06cd4efd05b37/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/58d87eab07d39ee6fec06cd4efd05b37/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/86989c956d4815a8bfb3d29bb1e1f58a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/86989c956d4815a8bfb3d29bb1e1f58a/AndroidManifest.xml:20:5-44
+MERGED from [tv.danmaku.ijk.media:ijkplayer-exo:0.8.8] /home/hamin/.gradle/caches/transforms-2/files-2.1/69bf78aade7e9eb7854a6d61a05f5c1e/AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-exo:0.8.8] /home/hamin/.gradle/caches/transforms-2/files-2.1/69bf78aade7e9eb7854a6d61a05f5c1e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.shuyu:gsyVideoPlayer-base:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/3ce958c5b3a63200f3d15af927de401a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.shuyu:gsyVideoPlayer-base:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/3ce958c5b3a63200f3d15af927de401a/AndroidManifest.xml:7:5-9:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.8.8] /home/hamin/.gradle/caches/transforms-2/files-2.1/d0aeee37be6c1a40419d4a0bd13edb44/AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.8.8] /home/hamin/.gradle/caches/transforms-2/files-2.1/d0aeee37be6c1a40419d4a0bd13edb44/AndroidManifest.xml:5:5-7:41
+MERGED from [com.shuyu:gsyvideoplayer-androidvideocache:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/076dd83e8cb02f9bcb519dcc02180f91/AndroidManifest.xml:7:5-9:41
+MERGED from [com.shuyu:gsyvideoplayer-androidvideocache:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/076dd83e8cb02f9bcb519dcc02180f91/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.exoplayer:exoplayer:r1.5.11] /home/hamin/.gradle/caches/transforms-2/files-2.1/e9904511a089e76a0e3befa4f4153fb8/AndroidManifest.xml:24:5-26:41
+MERGED from [com.google.android.exoplayer:exoplayer:r1.5.11] /home/hamin/.gradle/caches/transforms-2/files-2.1/e9904511a089e76a0e3befa4f4153fb8/AndroidManifest.xml:24:5-26:41
+INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
+INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
+		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
+provider#me.jessyan.autosize.InitProvider
+ADDED from [me.jessyan:autosize:1.1.2] /home/hamin/.gradle/caches/transforms-2/files-2.1/2418f085dcd400b37b0212b1bf4b27af/AndroidManifest.xml:12:9-16:43
+	android:authorities
+		ADDED from [me.jessyan:autosize:1.1.2] /home/hamin/.gradle/caches/transforms-2/files-2.1/2418f085dcd400b37b0212b1bf4b27af/AndroidManifest.xml:14:13-74
+	android:multiprocess
+		ADDED from [me.jessyan:autosize:1.1.2] /home/hamin/.gradle/caches/transforms-2/files-2.1/2418f085dcd400b37b0212b1bf4b27af/AndroidManifest.xml:16:13-40
+	android:exported
+		ADDED from [me.jessyan:autosize:1.1.2] /home/hamin/.gradle/caches/transforms-2/files-2.1/2418f085dcd400b37b0212b1bf4b27af/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [me.jessyan:autosize:1.1.2] /home/hamin/.gradle/caches/transforms-2/files-2.1/2418f085dcd400b37b0212b1bf4b27af/AndroidManifest.xml:13:13-60
