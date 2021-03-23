@@ -19,6 +19,7 @@ import androidx.leanback.widget.FocusHighlightHelper;
 import androidx.leanback.widget.HorizontalGridView;
 import androidx.leanback.widget.ItemBridgeAdapter;
 import androidx.leanback.widget.Presenter;
+import androidx.leanback.widget.VerticalGridView;
 
 import com.github.isuperred.R;
 import com.github.isuperred.base.BaseActivity;
@@ -42,8 +43,8 @@ public class VideoDetailActivity extends BaseActivity implements View.OnClickLis
     private SuperRedVideoPlayer videoPlayer;
     private OrientationUtils orientationUtils;
 
-    private HorizontalGridView mHgEpisodeContent;
-    private HorizontalGridView mHgEpisodeGroup;
+    private VerticalGridView mHgEpisodeContent;
+    private VerticalGridView mHgEpisodeGroup;
 
     private ArrayObjectAdapter mEpisodeContentAdapter;
     private ArrayObjectAdapter mEpisodeGroupAdapter;
@@ -152,7 +153,7 @@ public class VideoDetailActivity extends BaseActivity implements View.OnClickLis
         mHgEpisodeContent = findViewById(R.id.hg_episode_content);
         mHgEpisodeContent.setItemAnimator(null);
 //        mHgEpisodeContent.setFocusScrollStrategy(HorizontalGridView.FOCUS_SCROLL_ITEM);
-        mHgEpisodeContent.setHorizontalSpacing(FontDisplayUtil.dip2px(this, 6));
+        mHgEpisodeContent.setVerticalSpacing(FontDisplayUtil.dip2px(this, 6));
         mEpisodeContentAdapter = new ArrayObjectAdapter(new EpisodeContentPresenter());
         ItemBridgeAdapter itemBridgeAdapter = new MyItemBridgeAdapter(mEpisodeContentAdapter) {
             @Override
@@ -186,7 +187,7 @@ public class VideoDetailActivity extends BaseActivity implements View.OnClickLis
         mHgEpisodeGroup = findViewById(R.id.hg_episode_group);
 //        mHgEpisodeGroup.setFocusScrollStrategy(HorizontalGridView.FOCUS_SCROLL_ITEM);
         mHgEpisodeGroup.setItemAnimator(null);
-        mHgEpisodeGroup.setHorizontalSpacing(FontDisplayUtil.dip2px(this, 6));
+        mHgEpisodeGroup.setVerticalSpacing(FontDisplayUtil.dip2px(this, 6));
         mEpisodeGroupAdapter = new ArrayObjectAdapter(new EpisodeGroupPresenter());
         ItemBridgeAdapter itemBridgeAdapter = new MyItemBridgeAdapter(mEpisodeGroupAdapter) {
             @Override
