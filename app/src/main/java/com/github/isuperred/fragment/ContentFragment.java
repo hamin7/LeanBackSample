@@ -359,147 +359,147 @@ public class ContentFragment extends BaseLazyLoadFragment {
                 addWithTryCatch(listRowOne);
 
                 break;
-            case Constants.TYPE_TWO:
-                ArrayObjectAdapter arrayObjectAdapterTwo = new ArrayObjectAdapter(new TypeTwoContentPresenter());
-                List<Content.DataBean.WidgetsBean> listTwo = dataBean.getWidgets();
-                if (listTwo == null) {
-                    return;
-                }
-                if (listTwo.size() > 3) {
-                    listTwo = listTwo.subList(0, 3);
-                }
-                arrayObjectAdapterTwo.addAll(0, listTwo);
-                HeaderItem headerItemTwo = null;
-                if (dataBean.getShowTitle()) {
-                    headerItemTwo = new HeaderItem(dataBean.getTitle());
-                }
-                ListRow listRowTwo = new ListRow(headerItemTwo, arrayObjectAdapterTwo);
-                addWithTryCatch(listRowTwo);
-
-                break;
-            case Constants.TYPE_THREE:
-                ArrayObjectAdapter arrayObjectAdapterThree = new ArrayObjectAdapter(new TypeThreeContentPresenter());
-                List<Content.DataBean.WidgetsBean> listThree = dataBean.getWidgets();
-                if (listThree == null) {
-                    return;
-                }
-                if (listThree.size() > 6) {
-                    listThree = listThree.subList(0, 6);
-                }
-                arrayObjectAdapterThree.addAll(0, listThree);
-                HeaderItem headerItemThree = null;
-                if (dataBean.getShowTitle()) {
-                    headerItemThree = new HeaderItem(dataBean.getTitle());
-                }
-                ListRow listRowThree = new ListRow(headerItemThree, arrayObjectAdapterThree);
-                addWithTryCatch(listRowThree);
-
-                break;
-            case Constants.TYPE_FOUR:
-                ArrayObjectAdapter arrayObjectAdapterFour = new ArrayObjectAdapter(new TypeFourContentPresenter());
-                List<Content.DataBean.WidgetsBean> listFour = dataBean.getWidgets();
-                if (listFour == null) {
-                    return;
-                }
-                if (listFour.size() > 6) {
-                    listFour = listFour.subList(0, 6);
-                }
-                arrayObjectAdapterFour.addAll(0, listFour);
-                HeaderItem headerItemFour = null;
-                if (dataBean.getShowTitle()) {
-                    headerItemFour = new HeaderItem(dataBean.getTitle());
-                }
-                ListRow listRowFour = new ListRow(headerItemFour, arrayObjectAdapterFour);
-                addWithTryCatch(listRowFour);
-
-                break;
-            case Constants.TYPE_FIVE:
-                ArrayObjectAdapter arrayObjectAdapterFive = new ArrayObjectAdapter(new TypeFiveContentPresenter());
-                List<Content.DataBean.WidgetsBean> listFive = dataBean.getWidgets();
-                if (listFive == null) {
-                    return;
-                }
-                if (listFive.size() > 6) {
-                    listFive = listFive.subList(0, 6);
-                }
-                arrayObjectAdapterFive.addAll(0, listFive);
-                HeaderItem headerItemFive = null;
-                if (dataBean.getShowTitle()) {
-                    headerItemFive = new HeaderItem(dataBean.getTitle());
-                }
-                ListRow listRowFive = new ListRow(headerItemFive, arrayObjectAdapterFive);
-                addWithTryCatch(listRowFive);
-                break;
-            case Constants.TYPE_SIX:
-                ArrayObjectAdapter arrayObjectAdapterSix = new ArrayObjectAdapter(new TypeSixContentPresenter());
-                List<Content.DataBean.WidgetsBean> listSix = dataBean.getWidgets();
-                if (listSix == null) {
-                    return;
-                }
-                if (listSix.size() > 6) {
-                    listSix = listSix.subList(0, 6);
-                }
-                arrayObjectAdapterSix.addAll(0, listSix);
-                HeaderItem headerItemSix = null;
-                if (dataBean.getShowTitle()) {
-                    headerItemSix = new HeaderItem(dataBean.getTitle());
-                }
-                ListRow listRowSix = new ListRow(headerItemSix, arrayObjectAdapterSix);
-                addWithTryCatch(listRowSix);
-                break;
-            case Constants.TYPE_SEVEN:
-                TypeSeven typeSeven = new TypeSeven();
-                List<Content.DataBean.WidgetsBean> listSeven = dataBean.getWidgets();
-                if (listSeven == null) {
-                    return;
-                }
-                if (listSeven.size() > 5) {
-                    listSeven = listSeven.subList(0, 5);
-                }
-                listSeven.get(0).setBigPic(true);
-                typeSeven.setWidgetsBeanList(listSeven);
-                addWithTryCatch(typeSeven);
-                break;
-            case Constants.TYPE_EIGHT:
-                ArrayObjectAdapter arrayObjectAdapterEight = new ArrayObjectAdapter(new TypeSixContentPresenter());
-                HeaderItem headerItemEight = new HeaderItem("大闹天宫");
-                ListRow listRowEight = new ListRow(8, headerItemEight,
-                        arrayObjectAdapterEight);
-//                    headerItem.setContentDescription("大闹天宫");
-
-                arrayObjectAdapterEight.addAll(0, dataBean.getWidgets());
-                addWithTryCatch(listRowEight);
-                break;
-            case Constants.TYPE_NINE:
-                ArrayObjectAdapter arrayObjectAdapterNine = new ArrayObjectAdapter(new TypeSixContentPresenter());
-                HeaderItem headerItemNine = new HeaderItem("大闹天宫");
-                ListRow listRowNine = new ListRow(8, headerItemNine,
-                        arrayObjectAdapterNine);
-//                    headerItem.setContentDescription("大闹天宫");
-
-                arrayObjectAdapterNine.addAll(0, dataBean.getWidgets());
-                addWithTryCatch(listRowNine);
-                break;
-            case Constants.TYPE_TEN:
-                ArrayObjectAdapter arrayObjectAdapterTen = new ArrayObjectAdapter(new TypeSixContentPresenter());
-                HeaderItem headerItemTen = new HeaderItem("大闹天宫");
-                ListRow listRowTen = new ListRow(8, headerItemTen,
-                        arrayObjectAdapterTen);
-//                    headerItem.setContentDescription("大闹天宫");
-
-                arrayObjectAdapterTen.addAll(0, dataBean.getWidgets());
-                addWithTryCatch(listRowTen);
-                break;
-            case Constants.TYPE_ELEVEN:
-                ArrayObjectAdapter arrayObjectAdapterEleven = new ArrayObjectAdapter(new TypeSixContentPresenter());
-                HeaderItem headerItemEleven = new HeaderItem("大闹天宫");
-                ListRow listRowEleven = new ListRow(8, headerItemEleven,
-                        arrayObjectAdapterEleven);
-//                    headerItem.setContentDescription("大闹天宫");
-
-                arrayObjectAdapterEleven.addAll(0, dataBean.getWidgets());
-                addWithTryCatch(listRowEleven);
-                break;
+//            case Constants.TYPE_TWO:
+//                ArrayObjectAdapter arrayObjectAdapterTwo = new ArrayObjectAdapter(new TypeTwoContentPresenter());
+//                List<Content.DataBean.WidgetsBean> listTwo = dataBean.getWidgets();
+//                if (listTwo == null) {
+//                    return;
+//                }
+//                if (listTwo.size() > 3) {
+//                    listTwo = listTwo.subList(0, 3);
+//                }
+//                arrayObjectAdapterTwo.addAll(0, listTwo);
+//                HeaderItem headerItemTwo = null;
+//                if (dataBean.getShowTitle()) {
+//                    headerItemTwo = new HeaderItem(dataBean.getTitle());
+//                }
+//                ListRow listRowTwo = new ListRow(headerItemTwo, arrayObjectAdapterTwo);
+//                addWithTryCatch(listRowTwo);
+//
+//                break;
+//            case Constants.TYPE_THREE:
+//                ArrayObjectAdapter arrayObjectAdapterThree = new ArrayObjectAdapter(new TypeThreeContentPresenter());
+//                List<Content.DataBean.WidgetsBean> listThree = dataBean.getWidgets();
+//                if (listThree == null) {
+//                    return;
+//                }
+//                if (listThree.size() > 6) {
+//                    listThree = listThree.subList(0, 6);
+//                }
+//                arrayObjectAdapterThree.addAll(0, listThree);
+//                HeaderItem headerItemThree = null;
+//                if (dataBean.getShowTitle()) {
+//                    headerItemThree = new HeaderItem(dataBean.getTitle());
+//                }
+//                ListRow listRowThree = new ListRow(headerItemThree, arrayObjectAdapterThree);
+//                addWithTryCatch(listRowThree);
+//
+//                break;
+//            case Constants.TYPE_FOUR:
+//                ArrayObjectAdapter arrayObjectAdapterFour = new ArrayObjectAdapter(new TypeFourContentPresenter());
+//                List<Content.DataBean.WidgetsBean> listFour = dataBean.getWidgets();
+//                if (listFour == null) {
+//                    return;
+//                }
+//                if (listFour.size() > 6) {
+//                    listFour = listFour.subList(0, 6);
+//                }
+//                arrayObjectAdapterFour.addAll(0, listFour);
+//                HeaderItem headerItemFour = null;
+//                if (dataBean.getShowTitle()) {
+//                    headerItemFour = new HeaderItem(dataBean.getTitle());
+//                }
+//                ListRow listRowFour = new ListRow(headerItemFour, arrayObjectAdapterFour);
+//                addWithTryCatch(listRowFour);
+//
+//                break;
+//            case Constants.TYPE_FIVE:
+//                ArrayObjectAdapter arrayObjectAdapterFive = new ArrayObjectAdapter(new TypeFiveContentPresenter());
+//                List<Content.DataBean.WidgetsBean> listFive = dataBean.getWidgets();
+//                if (listFive == null) {
+//                    return;
+//                }
+//                if (listFive.size() > 6) {
+//                    listFive = listFive.subList(0, 6);
+//                }
+//                arrayObjectAdapterFive.addAll(0, listFive);
+//                HeaderItem headerItemFive = null;
+//                if (dataBean.getShowTitle()) {
+//                    headerItemFive = new HeaderItem(dataBean.getTitle());
+//                }
+//                ListRow listRowFive = new ListRow(headerItemFive, arrayObjectAdapterFive);
+//                addWithTryCatch(listRowFive);
+//                break;
+//            case Constants.TYPE_SIX:
+//                ArrayObjectAdapter arrayObjectAdapterSix = new ArrayObjectAdapter(new TypeSixContentPresenter());
+//                List<Content.DataBean.WidgetsBean> listSix = dataBean.getWidgets();
+//                if (listSix == null) {
+//                    return;
+//                }
+//                if (listSix.size() > 6) {
+//                    listSix = listSix.subList(0, 6);
+//                }
+//                arrayObjectAdapterSix.addAll(0, listSix);
+//                HeaderItem headerItemSix = null;
+//                if (dataBean.getShowTitle()) {
+//                    headerItemSix = new HeaderItem(dataBean.getTitle());
+//                }
+//                ListRow listRowSix = new ListRow(headerItemSix, arrayObjectAdapterSix);
+//                addWithTryCatch(listRowSix);
+//                break;
+//            case Constants.TYPE_SEVEN:
+//                TypeSeven typeSeven = new TypeSeven();
+//                List<Content.DataBean.WidgetsBean> listSeven = dataBean.getWidgets();
+//                if (listSeven == null) {
+//                    return;
+//                }
+//                if (listSeven.size() > 5) {
+//                    listSeven = listSeven.subList(0, 5);
+//                }
+//                listSeven.get(0).setBigPic(true);
+//                typeSeven.setWidgetsBeanList(listSeven);
+//                addWithTryCatch(typeSeven);
+//                break;
+//            case Constants.TYPE_EIGHT:
+//                ArrayObjectAdapter arrayObjectAdapterEight = new ArrayObjectAdapter(new TypeSixContentPresenter());
+//                HeaderItem headerItemEight = new HeaderItem("大闹天宫");
+//                ListRow listRowEight = new ListRow(8, headerItemEight,
+//                        arrayObjectAdapterEight);
+////                    headerItem.setContentDescription("大闹天宫");
+//
+//                arrayObjectAdapterEight.addAll(0, dataBean.getWidgets());
+//                addWithTryCatch(listRowEight);
+//                break;
+//            case Constants.TYPE_NINE:
+//                ArrayObjectAdapter arrayObjectAdapterNine = new ArrayObjectAdapter(new TypeSixContentPresenter());
+//                HeaderItem headerItemNine = new HeaderItem("大闹天宫");
+//                ListRow listRowNine = new ListRow(8, headerItemNine,
+//                        arrayObjectAdapterNine);
+////                    headerItem.setContentDescription("大闹天宫");
+//
+//                arrayObjectAdapterNine.addAll(0, dataBean.getWidgets());
+//                addWithTryCatch(listRowNine);
+//                break;
+//            case Constants.TYPE_TEN:
+//                ArrayObjectAdapter arrayObjectAdapterTen = new ArrayObjectAdapter(new TypeSixContentPresenter());
+//                HeaderItem headerItemTen = new HeaderItem("大闹天宫");
+//                ListRow listRowTen = new ListRow(8, headerItemTen,
+//                        arrayObjectAdapterTen);
+////                    headerItem.setContentDescription("大闹天宫");
+//
+//                arrayObjectAdapterTen.addAll(0, dataBean.getWidgets());
+//                addWithTryCatch(listRowTen);
+//                break;
+//            case Constants.TYPE_ELEVEN:
+//                ArrayObjectAdapter arrayObjectAdapterEleven = new ArrayObjectAdapter(new TypeSixContentPresenter());
+//                HeaderItem headerItemEleven = new HeaderItem("大闹天宫");
+//                ListRow listRowEleven = new ListRow(8, headerItemEleven,
+//                        arrayObjectAdapterEleven);
+////                    headerItem.setContentDescription("大闹天宫");
+//
+//                arrayObjectAdapterEleven.addAll(0, dataBean.getWidgets());
+//                addWithTryCatch(listRowEleven);
+//                break;
         }
     }
 
