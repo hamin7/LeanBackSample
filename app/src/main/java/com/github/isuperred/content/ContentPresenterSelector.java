@@ -51,7 +51,6 @@ public class ContentPresenterSelector extends BasePresenterSelector {
         addClassPresenter(Footer.class, new TypeFooterPresenter());
 
         addClassPresenter(TypeSeven.class, new TypeSevenPresenter());
-
     }
 
 }
