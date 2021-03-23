@@ -25,7 +25,8 @@ import static androidx.leanback.widget.FocusHighlight.ZOOM_FACTOR_NONE;
 import static androidx.leanback.widget.FocusHighlight.ZOOM_FACTOR_SMALL;
 import static androidx.leanback.widget.FocusHighlight.ZOOM_FACTOR_XSMALL;
 
-public class MyFocusHighlightHelper {
+public class
+MyFocusHighlightHelper {
     public static final int ZOOM_FACTOR_XXSMALL = 5;
     public static final int ZOOM_FACTOR_XXXSMALL = 6;
     static boolean isValidZoomIndex(int zoomIndex) {
