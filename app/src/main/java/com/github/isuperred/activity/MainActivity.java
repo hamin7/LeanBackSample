@@ -13,7 +13,6 @@ import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 import android.view.KeyEvent;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewTreeObserver;
 import android.widget.ImageView;
@@ -28,6 +27,7 @@ import androidx.leanback.widget.FocusHighlightHelper;
 import androidx.leanback.widget.HorizontalGridView;
 import androidx.leanback.widget.ItemBridgeAdapter;
 import androidx.leanback.widget.OnChildViewHolderSelectedListener;
+import androidx.leanback.widget.VerticalGridView;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
 
@@ -63,8 +63,8 @@ public class MainActivity extends BaseActivity implements ContentFragment.OnFrag
         return mArrayObjectAdapter;
     }
 
-    public HorizontalGridView getHorizontalGridView() {
-        return mHorizontalGridView;
+    public VerticalGridView getVerticalGridView() {
+        return mVerticalGridView;
     }
 
     private Handler mHandler = new MyHandler(this);
@@ -119,8 +119,8 @@ public class MainActivity extends BaseActivity implements ContentFragment.OnFrag
                 case R.id.cl_login:
                 case R.id.cl_open_vip:
                 case R.id.tv_ad:
-                    if (mHorizontalGridView != null) {
-                        mHorizontalGridView.requestFocus();
+                    if (mVerticalGridView != null) {
+                        mVerticalGridView.requestFocus();
                     }
                     return true;
                 default:
@@ -178,19 +178,19 @@ public class MainActivity extends BaseActivity implements ContentFragment.OnFrag
                         if (adapter != null) {
                             adapter.addAll(0, dataBeans);
                             activity.initViewPager(dataBeans);
-                            HorizontalGridView horizontalGridView = activity.getHorizontalGridView();
+                            VerticalGridView verticalGridView = activity.getVerticalGridView();
                             if (dataBeans.size() > Constants.TAG_FEATURE_POSITION) {
-                                if (horizontalGridView != null) {
-                                    horizontalGridView.setSelectedPositionSmooth(Constants.TAG_FEATURE_POSITION);
-                                    View positionView = horizontalGridView.getChildAt(Constants.TAG_FEATURE_POSITION);
+                                if (verticalGridView != null) {
+                                    verticalGridView.setSelectedPositionSmooth(Constants.TAG_FEATURE_POSITION);
+                                    View positionView = verticalGridView.getChildAt(Constants.TAG_FEATURE_POSITION);
                                     if (positionView != null) {
                                         activity.mOldTitle = positionView.findViewById(R.id.tv_main_title);
                                     }
                                 }
                             } else if (dataBeans.size() > 0) {
-                                if (activity.getHorizontalGridView() != null) {
-                                    horizontalGridView.setSelectedPositionSmooth(0);
-                                    View position0 = horizontalGridView.getChildAt(0);
+                                if (activity.getVerticalGridView() != null) {
+                                    verticalGridView.setSelectedPositionSmooth(0);
+                                    View position0 = verticalGridView.getChildAt(0);
                                     if (position0 != null) {
                                         activity.mOldTitle = position0.findViewById(R.id.tv_main_title);
                                     }
@@ -250,7 +250,7 @@ public class MainActivity extends BaseActivity implements ContentFragment.OnFrag
     @Override
     protected void onDestroy() {
         mHandler.removeCallbacksAndMessages(null);
-        mHorizontalGridView
+        mVerticalGridView
                 .removeOnChildViewHolderSelectedListener(onChildViewHolderSelectedListener);
         getWindow().getDecorView().getViewTreeObserver().removeOnGlobalFocusChangeListener(this);
         super.onDestroy();
@@ -260,7 +260,7 @@ public class MainActivity extends BaseActivity implements ContentFragment.OnFrag
         unregisterReceiver(networkChangeReceiver);
     }
 
-    private HorizontalGridView mHorizontalGridView;
+    private VerticalGridView mVerticalGridView;
     private ViewPager mViewPager;
     private Group mGroup;
 
@@ -291,7 +291,7 @@ public class MainActivity extends BaseActivity implements ContentFragment.OnFrag
     });
 
     private void initView() {
-        mHorizontalGridView = findViewById(R.id.hg_title);
+        mVerticalGridView = findViewById(R.id.hg_title);
         mViewPager = findViewById(R.id.vp_content);
         mGroup = findViewById(R.id.id_group);
         mIvNetwork = findViewById(R.id.iv_network);
@@ -302,10 +302,10 @@ public class MainActivity extends BaseActivity implements ContentFragment.OnFrag
         mTvAd = findViewById(R.id.tv_ad);
 
         mViewPager.setOffscreenPageLimit(2);
-        mHorizontalGridView.setHorizontalSpacing(FontDisplayUtil.dip2px(this, 10));
+        mVerticalGridView.setHorizontalSpacing(FontDisplayUtil.dip2px(this, 10));
         mArrayObjectAdapter = new ArrayObjectAdapter(new TitlePresenter());
         ItemBridgeAdapter itemBridgeAdapter = new ItemBridgeAdapter(mArrayObjectAdapter);
-        mHorizontalGridView.setAdapter(itemBridgeAdapter);
+        mVerticalGridView.setAdapter(itemBridgeAdapter);
         FocusHighlightHelper.setupBrowseItemFocusHighlight(itemBridgeAdapter,
                 FocusHighlight.ZOOM_FACTOR_MEDIUM, false);
     }
@@ -318,7 +318,7 @@ public class MainActivity extends BaseActivity implements ContentFragment.OnFrag
 
     private void initListener() {
         getWindow().getDecorView().getViewTreeObserver().addOnGlobalFocusChangeListener(this);
-        mHorizontalGridView.addOnChildViewHolderSelectedListener(onChildViewHolderSelectedListener);
+        mVerticalGridView.addOnChildViewHolderSelectedListener(onChildViewHolderSelectedListener);
         mClSearch.setOnClickListener(this);
         mClHistory.setOnClickListener(this);
         mClLogin.setOnClickListener(this);
@@ -363,7 +363,7 @@ public class MainActivity extends BaseActivity implements ContentFragment.OnFrag
                 }
                 if (position != mCurrentPageIndex) {
 //                    mCurrentPageIndex = position;
-                    mHorizontalGridView.setSelectedPosition(position);
+                    mVerticalGridView.setSelectedPosition(position);
 
                 }
             }

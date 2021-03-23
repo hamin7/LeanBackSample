@@ -9,10 +9,10 @@
     tools:context="com.github.isuperred.activity.MainActivity">
 
 
-    <com.github.isuperred.widgets.TabHorizontalGridView
+    <com.github.isuperred.widgets.TabVerticalGridView
         android:id="@+id/hg_title"
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
         android:layout_marginTop="67dp"
         android:clipChildren="false"
         android:clipToPadding="false"
@@ -22,6 +22,21 @@
         app:focusOutFront="true"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
+<!--    <com.github.isuperred.widgets.TabHorizontalGridView-->
+<!--        android:id="@+id/hg_title"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_marginTop="67dp"-->
+<!--        android:clipChildren="false"-->
+<!--        android:clipToPadding="false"-->
+<!--        android:paddingStart="48dp"-->
+<!--        android:paddingEnd="48dp"-->
+<!--        app:focusOutEnd="true"-->
+<!--        app:focusOutFront="true"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
 
     <com.github.isuperred.widgets.TabViewPager
         android:id="@+id/vp_content"

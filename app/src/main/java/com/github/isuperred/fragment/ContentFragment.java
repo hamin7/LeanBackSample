@@ -169,7 +169,7 @@ public class ContentFragment extends BaseLazyLoadFragment {
     private void initView() {
         mPbLoading = mRootView.findViewById(R.id.pb_loading);
         mVerticalGridView = mRootView.findViewById(R.id.hg_content);
-        mVerticalGridView.setTabView(mActivity.getHorizontalGridView());
+        mVerticalGridView.setTabView(mActivity.getVerticalGridView());
         mVerticalGridView.setGroup(mActivity.getGroup());
         mVerticalGridView.setVerticalSpacing(FontDisplayUtil.dip2px(mActivity, 24));
         ContentPresenterSelector presenterSelector = new ContentPresenterSelector();
