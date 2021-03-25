@@ -60,12 +60,12 @@
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/layout_video_progress_dialog.xml.flat",
-        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/9c0b7a234448f1e5556086333a6d3a9d/res/layout/video_progress_dialog.xml"
-    },
-    {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-v21_abc_edit_text_material.xml.flat",
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/layout_video_progress_dialog.xml.flat",
+        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/9c0b7a234448f1e5556086333a6d3a9d/res/layout/video_progress_dialog.xml"
     },
     {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/layout_abc_screen_simple_overlay_action_mode.xml.flat",
@@ -136,12 +136,12 @@
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/color_abc_hint_foreground_material_light.xml.flat",
-        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/color/abc_hint_foreground_material_light.xml"
-    },
-    {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/color_abc_hint_foreground_material_light.xml.flat",
+        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/color/abc_hint_foreground_material_light.xml"
     },
     {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_movie.jpg.flat",
@@ -156,12 +156,12 @@
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/04a45f70dc3270c5c2db25d1764baaee/res/transition-v21/lb_browse_return_transition.xml"
     },
     {
-        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/transition-v21_lb_vertical_grid_entrance_transition.xml.flat",
-        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/04a45f70dc3270c5c2db25d1764baaee/res/transition-v21/lb_vertical_grid_entrance_transition.xml"
-    },
-    {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/transition-v19_lb_browse_headers_out.xml.flat",
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/04a45f70dc3270c5c2db25d1764baaee/res/transition-v19/lb_browse_headers_out.xml"
+    },
+    {
+        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/transition-v21_lb_vertical_grid_entrance_transition.xml.flat",
+        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/04a45f70dc3270c5c2db25d1764baaee/res/transition-v21/lb_vertical_grid_entrance_transition.xml"
     },
     {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/layout_item_app_installed.xml.flat",
@@ -196,20 +196,20 @@
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable_video_click_pause_selector.xml.flat",
-        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/9c0b7a234448f1e5556086333a6d3a9d/res/drawable/video_click_pause_selector.xml"
-    },
-    {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/transition-v21_lb_title_out.xml.flat",
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/04a45f70dc3270c5c2db25d1764baaee/res/transition-v21/lb_title_out.xml"
     },
     {
-        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png"
+        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable_video_click_pause_selector.xml.flat",
+        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/9c0b7a234448f1e5556086333a6d3a9d/res/drawable/video_click_pause_selector.xml"
     },
     {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/anim_abc_popup_exit.xml.flat",
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/anim_abc_slide_out_bottom.xml.flat",
@@ -288,24 +288,24 @@
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/04a45f70dc3270c5c2db25d1764baaee/res/drawable/lb_headers_right_fading.xml"
     },
     {
-        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_lb_in_app_search_shadow_focused.9.png.flat",
-        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/04a45f70dc3270c5c2db25d1764baaee/res/drawable-xhdpi-v4/lb_in_app_search_shadow_focused.9.png"
-    },
-    {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_icon_danmaku_cosplay_bootom_selected.png.flat",
         "source": "/home/hamin/LeanbackTvSample/app/src/main/res/drawable-xhdpi-v4/icon_danmaku_cosplay_bootom_selected.png"
+    },
+    {
+        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_lb_in_app_search_shadow_focused.9.png.flat",
+        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/04a45f70dc3270c5c2db25d1764baaee/res/drawable-xhdpi-v4/lb_in_app_search_shadow_focused.9.png"
     },
     {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/layout_lb_speech_orb.xml.flat",
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/04a45f70dc3270c5c2db25d1764baaee/res/layout/lb_speech_orb.xml"
     },
     {
-        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/anim_danmu_icon_scale.xml.flat",
-        "source": "/home/hamin/LeanbackTvSample/app/src/main/res/anim/danmu_icon_scale.xml"
-    },
-    {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/anim_abc_slide_in_bottom.xml.flat",
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/anim_danmu_icon_scale.xml.flat",
+        "source": "/home/hamin/LeanbackTvSample/app/src/main/res/anim/danmu_icon_scale.xml"
     },
     {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_bundle_bg.jpg.flat",
@@ -372,12 +372,12 @@
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_danmu_settings_banned_word_delet.png.flat",
-        "source": "/home/hamin/LeanbackTvSample/app/src/main/res/drawable-xhdpi-v4/ic_danmu_settings_banned_word_delet.png"
-    },
-    {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_danmu_settings_banned_word_delet.png.flat",
+        "source": "/home/hamin/LeanbackTvSample/app/src/main/res/drawable-xhdpi-v4/ic_danmu_settings_banned_word_delet.png"
     },
     {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable_abc_btn_borderless_material.xml.flat",
@@ -400,12 +400,12 @@
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
-        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/f13db013fe90b9256798acea1b681f35/res/drawable/notification_bg.xml"
-    },
-    {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
+        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/f13db013fe90b9256798acea1b681f35/res/drawable/notification_bg.xml"
     },
     {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable_video_seek_thumb.xml.flat",
@@ -472,12 +472,12 @@
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/04a45f70dc3270c5c2db25d1764baaee/res/raw/lb_voice_success.ogg"
     },
     {
-        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/animator-v21_lb_playback_bg_fade_in.xml.flat",
-        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/04a45f70dc3270c5c2db25d1764baaee/res/animator-v21/lb_playback_bg_fade_in.xml"
-    },
-    {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/animator-v21_lb_playback_bg_fade_in.xml.flat",
+        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/04a45f70dc3270c5c2db25d1764baaee/res/animator-v21/lb_playback_bg_fade_in.xml"
     },
     {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
@@ -552,12 +552,12 @@
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/anim/abc_slide_in_top.xml"
     },
     {
-        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable_abc_ic_clear_material.xml.flat",
-        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/drawable/abc_ic_clear_material.xml"
-    },
-    {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable_abc_ic_clear_material.xml.flat",
+        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/drawable/abc_ic_clear_material.xml"
     },
     {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_tab_bg.png.flat",
@@ -612,12 +612,12 @@
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
-        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/anim_live_award_slide_out_top.xml.flat",
-        "source": "/home/hamin/LeanbackTvSample/app/src/main/res/anim/live_award_slide_out_top.xml"
-    },
-    {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_icon_danmu_question.png.flat",
         "source": "/home/hamin/LeanbackTvSample/app/src/main/res/drawable-xhdpi-v4/icon_danmu_question.png"
+    },
+    {
+        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/anim_live_award_slide_out_top.xml.flat",
+        "source": "/home/hamin/LeanbackTvSample/app/src/main/res/anim/live_award_slide_out_top.xml"
     },
     {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -752,16 +752,16 @@
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/04a45f70dc3270c5c2db25d1764baaee/res/layout/lb_rows_fragment.xml"
     },
     {
-        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_wave_white4.png.flat",
-        "source": "/home/hamin/LeanbackTvSample/app/src/main/res/drawable-mdpi-v4/wave_white4.png"
+        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/layout_lb_divider.xml.flat",
+        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/04a45f70dc3270c5c2db25d1764baaee/res/layout/lb_divider.xml"
     },
     {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/layout_lb_divider.xml.flat",
-        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/04a45f70dc3270c5c2db25d1764baaee/res/layout/lb_divider.xml"
+        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_wave_white4.png.flat",
+        "source": "/home/hamin/LeanbackTvSample/app/src/main/res/drawable-mdpi-v4/wave_white4.png"
     },
     {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -772,12 +772,12 @@
         "source": "/home/hamin/LeanbackTvSample/app/src/main/res/drawable-xhdpi-v4/seekbar_bg.9.png"
     },
     {
-        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_light.png.flat",
@@ -928,12 +928,12 @@
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/04a45f70dc3270c5c2db25d1764baaee/res/layout/lb_list_row.xml"
     },
     {
-        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/anim_abc_fade_in.xml.flat",
-        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/anim/abc_fade_in.xml"
-    },
-    {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_danmaku_position_top.png.flat",
         "source": "/home/hamin/LeanbackTvSample/app/src/main/res/drawable-xhdpi-v4/danmaku_position_top.png"
+    },
+    {
+        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/anim_abc_fade_in.xml.flat",
+        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/anim/abc_fade_in.xml"
     },
     {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/layout_item_type_two_layout.xml.flat",
@@ -1124,12 +1124,12 @@
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_icon_danmu_like.png.flat",
-        "source": "/home/hamin/LeanbackTvSample/app/src/main/res/drawable-xhdpi-v4/icon_danmu_like.png"
-    },
-    {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_icon_danmu_like.png.flat",
+        "source": "/home/hamin/LeanbackTvSample/app/src/main/res/drawable-xhdpi-v4/icon_danmu_like.png"
     },
     {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material.xml.flat",
@@ -1148,12 +1148,12 @@
         "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/layout/abc_select_dialog_material.xml"
     },
     {
-        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
-        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/anim_multi_mode_dialog_out.xml.flat",
         "source": "/home/hamin/LeanbackTvSample/app/src/main/res/anim/multi_mode_dialog_out.xml"
+    },
+    {
+        "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
+        "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/hamin/LeanbackTvSample/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
