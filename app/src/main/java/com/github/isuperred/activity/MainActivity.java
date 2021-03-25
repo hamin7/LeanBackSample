@@ -140,16 +140,16 @@ public class MainActivity extends BaseActivity implements ContentFragment.OnFrag
                 Toast.makeText(this, "已安装应用", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.cl_history:
-                Toast.makeText(this, "历史", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "History", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.cl_login:
-                Toast.makeText(this, "登录", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Log In", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.cl_open_vip:
-                Toast.makeText(this, "开通VIP", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "VIP", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.tv_ad:
-                Toast.makeText(this, "新人礼包", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "TV Ad", Toast.LENGTH_SHORT).show();
                 break;
             default:
                 break;
