@@ -17,8 +17,8 @@ public class BasePresenterSelector extends PresenterSelector {
     private final ArrayMap<Class<?>, Presenter> mClassSingleMap = new ArrayMap<>();
 
     /**
-     * Adds a presenter to be used for the given class.
-     * @param cls item 类型
+     * 지정된 클래스에 사용 할 presenter를 추가합니다.
+     * @param cls item 종류
      * @param presenter  presenter
      */
     public void addClassPresenter(Class<?> cls, Presenter presenter) {
@@ -30,9 +30,9 @@ public class BasePresenterSelector extends PresenterSelector {
 
     /**
      * Adds a presenter to be used for the given class.
-     * @param cls item 类型
+     * @param cls item 종류
      * @param presenter presenter
-     * @param childType  当包含多个相同{@param cls}时，并且presenter不同，则通过子item{@param childType}区分
+     * @param childType  같은 {@param cls}개가 여러 개 포함되어 있을 때，또한 presenter는 다르게 서브아이템{@param childType}으로 구분됩니다.
      */
     public void addClassPresenter(Class<?> cls, Presenter presenter, Class<?> childType) {
         ArrayMap<Class<?>, Presenter> classPresenterArrayMap = mClassMap.get(cls);
