@@ -70,7 +70,6 @@ public class ContentFragment extends BaseLazyLoadFragment {
     @SuppressLint("HandlerLeak")
     private class MyHandler extends Handler {
 
-
         @Override
         public void handleMessage(Message msg) {
             switch (msg.what) {
