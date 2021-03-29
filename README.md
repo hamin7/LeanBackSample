@@ -27,3 +27,9 @@ LeanbackTvSample is a smart TV desktop application based on the Android platform
 - java/com.kt.androidtv/ui/menu/rankgrid/RankPosterCardView/java
 
 > 선택 시 강조 및 텍스트 흐르는 effect
+
+- 스크롤 바는 안해도 되는 것인가? 어디에도 없는데???
+
+## Design split 나오는 것과 안나오는 것의 차이?
+
+- ui/menu/
