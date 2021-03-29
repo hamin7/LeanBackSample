@@ -79,7 +79,10 @@ public class ContentFragment extends BaseLazyLoadFragment {
                     if (content == null) {
                         break;
                     }
+
                     List<Content.DataBean> dataBeans = content.getData();
+
+                    // 영화 카드들 렌더링
                     for (int i = 0; i < dataBeans.size(); i++) {
                         Content.DataBean dataBean = dataBeans.get(i);
                         addItem(dataBean);
@@ -297,7 +300,7 @@ public class ContentFragment extends BaseLazyLoadFragment {
             Bundle b = new Bundle();
             b.putParcelable(MSG_BUNDLE_KEY_ADD_ITEM, content);
             msg.setData(b);
-            //延迟1秒模拟加载数据过程
+            // 데이터를 로딩하는 과정을 1초 지연합니다
             mHandler.sendMessageDelayed(msg, 1000);
 
         }
