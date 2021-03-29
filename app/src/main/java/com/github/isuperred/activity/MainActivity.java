@@ -137,7 +137,7 @@ public class MainActivity extends BaseActivity implements ContentFragment.OnFrag
         switch (v.getId()) {
             case R.id.cl_search:
                 startActivity(new Intent(this, AppInstalledActivity.class));
-                Toast.makeText(this, "已安装应用", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Installed Applications", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.cl_history:
                 Toast.makeText(this, "History", Toast.LENGTH_SHORT).show();

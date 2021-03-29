@@ -376,24 +376,24 @@ public class ContentFragment extends BaseLazyLoadFragment {
 //                addWithTryCatch(listRowTwo);
 //
 //                break;
-            case Constants.TYPE_THREE:
-                ArrayObjectAdapter arrayObjectAdapterThree = new ArrayObjectAdapter(new TypeThreeContentPresenter());
-                List<Content.DataBean.WidgetsBean> listThree = dataBean.getWidgets();
-                if (listThree == null) {
-                    return;
-                }
-                if (listThree.size() > 6) {
-                    listThree = listThree.subList(0, 6);
-                }
-                arrayObjectAdapterThree.addAll(0, listThree);
-                HeaderItem headerItemThree = null;
-                if (dataBean.getShowTitle()) {
-                    headerItemThree = new HeaderItem(dataBean.getTitle());
-                }
-                ListRow listRowThree = new ListRow(headerItemThree, arrayObjectAdapterThree);
-                addWithTryCatch(listRowThree);
-
-                break;
+//            case Constants.TYPE_THREE:
+//                ArrayObjectAdapter arrayObjectAdapterThree = new ArrayObjectAdapter(new TypeThreeContentPresenter());
+//                List<Content.DataBean.WidgetsBean> listThree = dataBean.getWidgets();
+//                if (listThree == null) {
+//                    return;
+//                }
+//                if (listThree.size() > 6) {
+//                    listThree = listThree.subList(0, 6);
+//                }
+//                arrayObjectAdapterThree.addAll(0, listThree);
+//                HeaderItem headerItemThree = null;
+//                if (dataBean.getShowTitle()) {
+//                    headerItemThree = new HeaderItem(dataBean.getTitle());
+//                }
+//                ListRow listRowThree = new ListRow(headerItemThree, arrayObjectAdapterThree);
+//                addWithTryCatch(listRowThree);
+//
+//                break;
 //            case Constants.TYPE_FOUR:
 //                ArrayObjectAdapter arrayObjectAdapterFour = new ArrayObjectAdapter(new TypeFourContentPresenter());
 //                List<Content.DataBean.WidgetsBean> listFour = dataBean.getWidgets();
