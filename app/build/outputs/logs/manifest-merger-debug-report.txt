@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:2:1-60:12
-INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:2:1-60:12
-INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:2:1-60:12
-INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:2:1-60:12
-MERGED from [:library-player] /home/hamin/LeanbackTvSample/library-player/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:2:1-60:12
+MERGED from [:library-player] /home/hamin/LeanBackSample/library-player/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.shuyu:gsyVideoPlayer-java:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/9c0b7a234448f1e5556086333a6d3a9d/AndroidManifest.xml:2:1-17:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/eb37d90e56c82298dea6f5f859e49d6f/AndroidManifest.xml:2:1-11:12
@@ -52,71 +52,71 @@ MERGED from [com.shuyu:gsyVideoPlayer-base:6.0.3] /home/hamin/.gradle/caches/tra
 MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.8.8] /home/hamin/.gradle/caches/transforms-2/files-2.1/d0aeee37be6c1a40419d4a0bd13edb44/AndroidManifest.xml:2:1-9:12
 MERGED from [com.shuyu:gsyvideoplayer-androidvideocache:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/076dd83e8cb02f9bcb519dcc02180f91/AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.android.exoplayer:exoplayer:r1.5.11] /home/hamin/.gradle/caches/transforms-2/files-2.1/e9904511a089e76a0e3befa4f4153fb8/AndroidManifest.xml:17:1-28:12
-INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:2:1-60:12
-INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:2:1-60:12
-INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:2:1-60:12
 	package
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:4:5-35
-		INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
-		INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:4:5-35
+		INJECTED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:2:1-60:12
-		INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:2:1-60:12
+		INJECTED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:2:1-60:12
-		INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:2:1-60:12
+		INJECTED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:2:11-69
 	tools:ignore
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:5:5-43
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:5:5-43
 uses-permission#android.permission.INTERNET
-ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:7:5-67
+ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:7:22-64
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:7:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:8:5-79
+ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:8:5-79
 	android:name
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:8:22-76
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:8:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:9:5-76
+ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:9:5-76
 	android:name
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:9:22-73
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:9:22-73
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:10:5-80
+ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:10:5-80
 	android:name
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:10:22-77
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:10:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:11:5-81
+ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:11:22-78
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:11:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:12:5-75
+ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:12:5-75
 	android:name
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:12:22-72
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:12:22-72
 uses-permission#android.permission.READ_LOGS
-ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:13:5-15:47
+ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:13:5-15:47
 	tools:ignore
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:15:9-44
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:15:9-44
 	android:name
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:14:9-52
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:14:9-52
 uses-feature#android.software.leanback
-ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:20:5-22:36
+ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:20:5-22:36
 	android:required
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:22:9-33
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:22:9-33
 	android:name
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:21:9-49
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:21:9-49
 uses-feature#android.hardware.touchscreen
-ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:27:5-29:36
+ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:27:5-29:36
 	android:required
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:29:9-33
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:29:9-33
 	android:name
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:28:9-52
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:28:9-52
 application
-ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:31:5-58:19
+ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:31:5-58:19
 MERGED from [com.shuyu:gsyVideoPlayer-java:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/9c0b7a234448f1e5556086333a6d3a9d/AndroidManifest.xml:11:5-15:19
 MERGED from [com.shuyu:gsyVideoPlayer-java:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/9c0b7a234448f1e5556086333a6d3a9d/AndroidManifest.xml:11:5-15:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/eb37d90e56c82298dea6f5f859e49d6f/AndroidManifest.xml:9:5-20
@@ -142,67 +142,67 @@ MERGED from [com.shuyu:gsyvideoplayer-androidvideocache:6.0.3] /home/hamin/.grad
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/f13db013fe90b9256798acea1b681f35/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:36:9-35
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:36:9-35
 	android:label
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:35:9-41
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:35:9-41
 	tools:ignore
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:38:9-48
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:38:9-48
 	android:icon
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:34:9-45
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:34:9-45
 	android:allowBackup
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:33:9-36
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:33:9-36
 		REJECTED from [com.shuyu:gsyVideoPlayer-java:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/9c0b7a234448f1e5556086333a6d3a9d/AndroidManifest.xml:12:9-35
 		REJECTED from [com.shuyu:gsyVideoPlayer-armv7a:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/054041bfa4cccd5248f1dbe3ef3be431/AndroidManifest.xml:12:9-35
 		REJECTED from [tv.danmaku.ijk.media:ijkplayer-exo:0.8.8] /home/hamin/.gradle/caches/transforms-2/files-2.1/69bf78aade7e9eb7854a6d61a05f5c1e/AndroidManifest.xml:10:9-35
 		REJECTED from [com.shuyu:gsyvideoplayer-androidvideocache:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/076dd83e8cb02f9bcb519dcc02180f91/AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:37:9-40
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:37:9-40
 	tools:replace
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:39:9-44
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:39:9-44
 	android:name
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:32:9-50
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:32:9-50
 activity#com.github.isuperred.activity.VideoDetailActivity
-ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:40:9-66
+ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:40:9-66
 	android:name
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:40:19-63
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:40:19-63
 activity#com.github.isuperred.activity.VideoPlayActivity
-ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:41:9-64
+ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:41:9-64
 	android:name
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:41:19-61
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:41:19-61
 activity#com.github.isuperred.activity.AppInstalledActivity
-ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:42:9-44:53
+ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:42:9-44:53
 	android:screenOrientation
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:44:13-50
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:44:13-50
 	android:name
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:43:13-58
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:43:13-58
 activity#com.github.isuperred.activity.MainActivity
-ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:45:9-53:20
+ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:45:9-53:20
 	android:screenOrientation
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:47:13-50
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:47:13-50
 	android:name
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:46:13-50
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:46:13-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:48:13-52:29
+ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:48:13-52:29
 action#android.intent.action.MAIN
-ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:49:17-69
+ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:49:17-69
 	android:name
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:49:25-66
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:49:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:51:17-77
+ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:51:17-77
 	android:name
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:51:27-74
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:51:27-74
 meta-data#design_width_in_dp
-ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:55:9-57:35
+ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:55:9-57:35
 	android:value
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:57:13-32
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:57:13-32
 	android:name
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml:56:13-46
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml:56:13-46
 uses-sdk
-INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
-INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
-MERGED from [:library-player] /home/hamin/LeanbackTvSample/library-player/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:library-player] /home/hamin/LeanbackTvSample/library-player/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml
+INJECTED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml
+MERGED from [:library-player] /home/hamin/LeanBackSample/library-player/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:library-player] /home/hamin/LeanBackSample/library-player/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.shuyu:gsyVideoPlayer-java:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/9c0b7a234448f1e5556086333a6d3a9d/AndroidManifest.xml:7:5-9:41
 MERGED from [com.shuyu:gsyVideoPlayer-java:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/9c0b7a234448f1e5556086333a6d3a9d/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/AndroidManifest.xml:20:5-22:41
@@ -297,16 +297,16 @@ MERGED from [com.shuyu:gsyvideoplayer-androidvideocache:6.0.3] /home/hamin/.grad
 MERGED from [com.shuyu:gsyvideoplayer-androidvideocache:6.0.3] /home/hamin/.gradle/caches/transforms-2/files-2.1/076dd83e8cb02f9bcb519dcc02180f91/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.exoplayer:exoplayer:r1.5.11] /home/hamin/.gradle/caches/transforms-2/files-2.1/e9904511a089e76a0e3befa4f4153fb8/AndroidManifest.xml:24:5-26:41
 MERGED from [com.google.android.exoplayer:exoplayer:r1.5.11] /home/hamin/.gradle/caches/transforms-2/files-2.1/e9904511a089e76a0e3befa4f4153fb8/AndroidManifest.xml:24:5-26:41
-INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
-INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
+INJECTED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml
+INJECTED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
-		INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
-		ADDED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
-		INJECTED from /home/hamin/LeanbackTvSample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml
+		ADDED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hamin/LeanBackSample/app/src/main/AndroidManifest.xml
 provider#me.jessyan.autosize.InitProvider
 ADDED from [me.jessyan:autosize:1.1.2] /home/hamin/.gradle/caches/transforms-2/files-2.1/2418f085dcd400b37b0212b1bf4b27af/AndroidManifest.xml:12:9-16:43
 	android:authorities

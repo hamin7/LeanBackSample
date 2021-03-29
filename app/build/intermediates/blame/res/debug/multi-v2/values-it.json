@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/hamin/LeanbackTvSample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml",
+            "outputFile": "/home/hamin/LeanBackSample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml",
             "map": [
                 {
                     "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/82bbbccba3d5d47ded7b92c3cddee63f/res/values-it/values-it.xml",

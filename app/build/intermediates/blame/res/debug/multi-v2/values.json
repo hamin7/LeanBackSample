@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/hamin/LeanbackTvSample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/hamin/LeanBackSample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/eb37d90e56c82298dea6f5f859e49d6f/res/values/values.xml",
@@ -40,22 +40,39 @@
                     }
                 },
                 {
-                    "source": "/home/hamin/LeanbackTvSample/app/src/main/res/values/attrs.xml",
+                    "source": "/home/hamin/LeanBackSample/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "2",
+                        "startLines": "1",
                         "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "11",
-                        "endColumns": "24",
-                        "endOffsets": "520"
+                        "startOffsets": "16",
+                        "endColumns": "53",
+                        "endOffsets": "65"
                     },
                     "to": {
-                        "startLines": "4864",
+                        "startLines": "806",
                         "startColumns": "4",
-                        "startOffsets": "309351",
-                        "endLines": "4873",
-                        "endColumns": "24",
-                        "endOffsets": "309810"
+                        "startOffsets": "50188",
+                        "endColumns": "53",
+                        "endOffsets": "50237"
+                    }
+                },
+                {
+                    "source": "/home/hamin/LeanBackSample/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,12,20",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "54,453,706",
+                        "endLines": "10,18,22",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "447,700,821"
+                    },
+                    "to": {
+                        "startLines": "860,1937,1944",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "54195,123574,123826",
+                        "endLines": "867,1943,1946",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "54588,123821,123940"
                     }
                 },
                 {
@@ -78,25 +95,6 @@
                     }
                 },
                 {
-                    "source": "/home/hamin/LeanbackTvSample/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3,12,20",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "54,453,706",
-                        "endLines": "10,18,22",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "447,700,821"
-                    },
-                    "to": {
-                        "startLines": "860,1937,1944",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "54195,123574,123826",
-                        "endLines": "867,1943,1946",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "54588,123821,123940"
-                    }
-                },
-                {
                     "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/78adcc7532082afddc02b701cf7cea1a/res/values/values.xml",
                     "from": {
                         "startLines": "2,29,36,47,74",
@@ -116,54 +114,22 @@
                     }
                 },
                 {
-                    "source": "/home/hamin/LeanbackTvSample/app/src/main/res/values/colors.xml",
+                    "source": "/home/hamin/LeanBackSample/app/src/main/res/values/attrs.xml",
                     "from": {
-                        "startLines": "4,5,7,8,2,3,6,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "153,199,286,331,55,102,241,377",
-                        "endColumns": "45,41,44,45,46,50,44,51",
-                        "endOffsets": "194,236,326,372,97,148,281,424"
-                    },
-                    "to": {
-                        "startLines": "154,155,156,157,158,159,160,260",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "7760,7806,7848,7893,7939,7986,8037,14569",
-                        "endColumns": "45,41,44,45,46,50,44,51",
-                        "endOffsets": "7801,7843,7888,7934,7981,8032,8077,14616"
-                    }
-                },
-                {
-                    "source": "/home/hamin/LeanbackTvSample/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
+                        "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "53",
-                        "endOffsets": "65"
+                        "startOffsets": "55",
+                        "endLines": "11",
+                        "endColumns": "24",
+                        "endOffsets": "520"
                     },
                     "to": {
-                        "startLines": "806",
+                        "startLines": "4864",
                         "startColumns": "4",
-                        "startOffsets": "50188",
-                        "endColumns": "53",
-                        "endOffsets": "50237"
-                    }
-                },
-                {
-                    "source": "/home/hamin/LeanbackTvSample/app/src/main/res/values/values.xml",
-                    "from": {
-                        "startLines": "3,4,5,2,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "128,200,273,55,345,418,492",
-                        "endColumns": "71,72,71,72,72,73,74",
-                        "endOffsets": "195,268,340,123,413,487,562"
-                    },
-                    "to": {
-                        "startLines": "638,639,640,641,642,643,644",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "40070,40142,40215,40287,40360,40433,40507",
-                        "endColumns": "71,72,71,72,72,73,74",
-                        "endOffsets": "40137,40210,40282,40355,40428,40502,40577"
+                        "startOffsets": "309351",
+                        "endLines": "4873",
+                        "endColumns": "24",
+                        "endOffsets": "309810"
                     }
                 },
                 {
@@ -260,6 +226,23 @@
                     }
                 },
                 {
+                    "source": "/home/hamin/LeanBackSample/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "4,5,7,8,2,3,6,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "153,199,286,331,55,102,241,377",
+                        "endColumns": "45,41,44,45,46,50,44,51",
+                        "endOffsets": "194,236,326,372,97,148,281,424"
+                    },
+                    "to": {
+                        "startLines": "154,155,156,157,158,159,160,260",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "7760,7806,7848,7893,7939,7986,8037,14569",
+                        "endColumns": "45,41,44,45,46,50,44,51",
+                        "endOffsets": "7801,7843,7888,7934,7981,8032,8077,14616"
+                    }
+                },
+                {
                     "source": "/home/hamin/.gradle/caches/transforms-2/files-2.1/ebf949c6a688a8988c734ef102b2c001/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -274,6 +257,23 @@
                         "startOffsets": "43209",
                         "endColumns": "57",
                         "endOffsets": "43262"
+                    }
+                },
+                {
+                    "source": "/home/hamin/LeanBackSample/app/src/main/res/values/values.xml",
+                    "from": {
+                        "startLines": "3,4,5,2,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "128,200,273,55,345,418,492",
+                        "endColumns": "71,72,71,72,72,73,74",
+                        "endOffsets": "195,268,340,123,413,487,562"
+                    },
+                    "to": {
+                        "startLines": "638,639,640,641,642,643,644",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "40070,40142,40215,40287,40360,40433,40507",
+                        "endColumns": "71,72,71,72,72,73,74",
+                        "endOffsets": "40137,40210,40282,40355,40428,40502,40577"
                     }
                 },
                 {
