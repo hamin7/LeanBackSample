@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Mar 29 13:31:58 KST 2021
+#Mon Mar 29 14:48:34 KST 2021
 17.baseType=DIRECTORY
 4.path=MyTitle.json
 25.base=/home/hamin/LeanBackSample/app/build/intermediates/merged_assets/debug/out
