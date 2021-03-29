@@ -46,7 +46,8 @@ public class AppVerticalGridView extends VerticalGridView {
                     }
 
                     int itemCount = getAdapter().getItemCount();
-                    if (itemCount + 1 < mNumColumns || itemCount % mNumColumns == 0) {//这2种情况不需要单独处理
+                    if (itemCount + 1 < mNumColumns || itemCount % mNumColumns == 0) {
+                        // 이 2가지 상황은 단독으로 처리하지 않아도 된다.
                         break;
                     }
 
@@ -58,7 +59,7 @@ public class AppVerticalGridView extends VerticalGridView {
                     } else {
                         currentLine = currentPosition/ mNumColumns + 1;
                     }
-                    if ((currentLine == lineNumbers - 1)//倒数第二行
+                    if ((currentLine == lineNumbers - 1)// 밑에서 두 번째 줄
                             && ((currentPosition + 1 + mNumColumns) > itemCount)) {
                         setSelectedPositionSmooth(itemCount - 1);
                         return true;
