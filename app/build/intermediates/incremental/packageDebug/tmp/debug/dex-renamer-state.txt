@@ -1,4 +1,4 @@
-#Tue Mar 30 10:26:22 KST 2021
+#Tue Mar 30 10:34:38 KST 2021
 base.0=/home/hamin/LeanBackSample/app/build/intermediates/dex/debug/mergeDexDebug/out
 path.0=classes.dex
 renamed.0=classes.dex

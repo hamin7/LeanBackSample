@@ -492,16 +492,16 @@ public class ContentFragment extends BaseLazyLoadFragment {
 //                arrayObjectAdapterTen.addAll(0, dataBean.getWidgets());
 //                addWithTryCatch(listRowTen);
 //                break;
-            case Constants.TYPE_ELEVEN:
-                ArrayObjectAdapter arrayObjectAdapterEleven = new ArrayObjectAdapter(new TypeSixContentPresenter());
-                HeaderItem headerItemEleven = new HeaderItem("大闹天宫");
-                ListRow listRowEleven = new ListRow(8, headerItemEleven,
-                        arrayObjectAdapterEleven);
-//                    headerItem.setContentDescription("大闹天宫");
-
-                arrayObjectAdapterEleven.addAll(0, dataBean.getWidgets());
-                addWithTryCatch(listRowEleven);
-                break;
+//            case Constants.TYPE_ELEVEN:
+//                ArrayObjectAdapter arrayObjectAdapterEleven = new ArrayObjectAdapter(new TypeSixContentPresenter());
+//                HeaderItem headerItemEleven = new HeaderItem("大闹天宫");
+//                ListRow listRowEleven = new ListRow(8, headerItemEleven,
+//                        arrayObjectAdapterEleven);
+////                    headerItem.setContentDescription("大闹天宫");
+//
+//                arrayObjectAdapterEleven.addAll(0, dataBean.getWidgets());
+//                addWithTryCatch(listRowEleven);
+//                break;
         }
     }
 
