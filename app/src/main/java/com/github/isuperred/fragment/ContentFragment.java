@@ -516,9 +516,9 @@ public class ContentFragment extends BaseLazyLoadFragment {
         public void onScrollStateChanged(@NonNull RecyclerView recyclerView, int newState) {
             super.onScrollStateChanged(recyclerView, newState);
             switch (newState) {
-                //当屏幕滚动且用户使用的触碰或手指还在屏幕上，停止加载图片
+                // 화면이 스크롤되고 사용자가 사용할 터치나 손가락이 화면에 있을 때 그림을 불러오지 않기
                 case RecyclerView.SCROLL_STATE_DRAGGING:
-                    //由于用户的操作，屏幕产生惯性滑动，停止加载图片
+                    // 사용자의 조작으로, 화면에 관성 미끄럼이 생겨, 그림을 싣는 것을 멈추었다.
                 case RecyclerView.SCROLL_STATE_SETTLING:
                     Glide.with(mActivity).pauseRequests();
                     break;

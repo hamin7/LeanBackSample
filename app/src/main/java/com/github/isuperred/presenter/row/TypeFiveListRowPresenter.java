@@ -31,7 +31,7 @@ public class TypeFiveListRowPresenter extends BaseListRowPresenter {
                                       Object item, RowPresenter.ViewHolder rowViewHolder, Object row) {
                 if (item instanceof Content.DataBean.WidgetsBean) {
                     Toast.makeText(((ViewHolder) rowViewHolder).getGridView().getContext(),
-                            "位置:" + ((ViewHolder) rowViewHolder).getGridView().getSelectedPosition(),
+                            "위치:" + ((ViewHolder) rowViewHolder).getGridView().getSelectedPosition(),
                             Toast.LENGTH_SHORT).show();
                     ((ViewHolder) rowViewHolder).getGridView().getContext().startActivity(new Intent(((ViewHolder) rowViewHolder).getGridView().getContext(), VideoDetailActivity.class));
 
