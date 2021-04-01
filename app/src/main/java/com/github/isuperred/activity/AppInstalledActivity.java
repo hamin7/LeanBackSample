@@ -70,7 +70,7 @@ public class AppInstalledActivity extends BaseActivity {
                                         .getLaunchIntentForPackage(((AppInfo) item).packageName);
                                 if (intent == null) {
                                     Toast.makeText(AppInstalledActivity.this,
-                                            ((AppInfo) item).name + "未安装",
+                                            ((AppInfo) item).name + "설치되지 않음",
                                             Toast.LENGTH_SHORT).show();
                                 } else {
                                     startActivity(intent);
@@ -121,7 +121,7 @@ public class AppInstalledActivity extends BaseActivity {
     public List<AppInfo> getInstallApps(Context context) {
         Log.e(TAG, "getInstallApps0: ");
         PackageManager pm = context.getPackageManager();
-        List<PackageInfo> installedPackages = pm.getInstalledPackages(0);  //获取所以已安装的包
+        List<PackageInfo> installedPackages = pm.getInstalledPackages(0);  // 설치되어 있는 패키지를 가져옵니다
 
         List<AppInfo> list = new ArrayList<>();
         for (PackageInfo packageInfo : installedPackages) {
@@ -130,14 +130,14 @@ public class AppInstalledActivity extends BaseActivity {
                 continue;
             }
             AppInfo info = new AppInfo();
-            ApplicationInfo applicationInfo = packageInfo.applicationInfo;  //应用信息
+            ApplicationInfo applicationInfo = packageInfo.applicationInfo;  // 어플리케이션 정보
             info.name = applicationInfo.loadLabel(pm).toString();
-            info.icon = applicationInfo.loadIcon(pm);        //状态机,通过01状态来表示是否具备某些属性和功能
+            info.icon = applicationInfo.loadIcon(pm);        // 상태기는, 01의 상태를 통해서 어떤 속성과 기능을 갖추고 있는지 여부를 나타낸다.
 
             info.packageName = packageInfo.packageName;
             info.versionName = packageInfo.versionName;
             info.versionCode = packageInfo.versionCode;
-            int flags = applicationInfo.flags;  //获取应用标记
+            int flags = applicationInfo.flags;  // 응용 프로그램 태그 가져오기
             info.isRom = (flags & ApplicationInfo.FLAG_EXTERNAL_STORAGE) != ApplicationInfo
                     .FLAG_EXTERNAL_STORAGE;
             info.isUser = (flags & ApplicationInfo.FLAG_SYSTEM) != ApplicationInfo

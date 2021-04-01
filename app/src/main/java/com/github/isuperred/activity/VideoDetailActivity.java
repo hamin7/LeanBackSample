@@ -69,7 +69,7 @@ public class VideoDetailActivity extends BaseActivity implements View.OnClickLis
                     if (episodeBeans == null || episodeBeans.size() == 0) {
                         return;
                     }
-                    if (msg.arg1 == 1) {//msg.arg1: 1：组别也添加数据 0：组别不添加数据
+                    if (msg.arg1 == 1) {// msg.arg1: 1: 그룹별로 데이터 추가 0: 그룹별로 데이터 추가 안 함
                         mEpisodeGroupAdapter.clear();
                         mEpisodeGroupAdapter.addAll(0, episodeBeans);
                     }
@@ -112,27 +112,27 @@ public class VideoDetailActivity extends BaseActivity implements View.OnClickLis
         String source1 = "http://cn7.kankia.com/hls/20191221/e7008a3a456befc61b60720103b216af/1576895692/index.m3u8";
         videoPlayer.setUp(source1, true, "");
 
-        //增加封面
+        // 표지를 늘리다
         ImageView imageView = new ImageView(this);
         imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
 //        imageView.setImageResource(R.mipmap.xxx1);
         videoPlayer.setThumbImageView(imageView);
-        //增加title
+        // 추가 title
         videoPlayer.getTitleTextView().setVisibility(View.VISIBLE);
-        //设置返回键
+        // 되돌리기 키 설정
         videoPlayer.getBackButton().setVisibility(View.VISIBLE);
         //设置旋转
         orientationUtils = new OrientationUtils(this, videoPlayer);
-        //设置全屏按键功能,这是使用的是选择屏幕，而不是全屏
+        // 전체 화면 버튼 기능을 설정하는데, 이것은 전체 화면이 아니라 선택 화면을 사용하는 것이다.
         videoPlayer.getFullscreenButton().setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 orientationUtils.resolveByClick();
             }
         });
-        //是否可以滑动调整
+        // 슬라이딩 조정 가능 여부
         videoPlayer.setIsTouchWiget(true);
-        //设置返回按键功能
+        // 버튼 되돌리기 기능 설정
         videoPlayer.getBackButton().setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -222,7 +222,7 @@ public class VideoDetailActivity extends BaseActivity implements View.OnClickLis
                                 final Message msg = Message.obtain();
                                 msg.what = MSG_ADD_EPISODE_CONTENT;
                                 msg.obj = episodeBean;
-                                //延迟1秒模拟加载数据过程
+                                // 데이터를 로딩하는 과정을 1초 지연합니다
                                 mHandler.sendMessageDelayed(msg, 0);
                             }
 
@@ -262,7 +262,7 @@ public class VideoDetailActivity extends BaseActivity implements View.OnClickLis
             msg.what = MSG_ADD_EPISODE;
             msg.obj = video;
             msg.arg1 = 1;
-            //延迟1秒模拟加载数据过程
+            // 데이터를 로딩하는 과정을 1초 지연합니다
             mHandler.sendMessageDelayed(msg, 0);
         }
     });
@@ -305,12 +305,12 @@ public class VideoDetailActivity extends BaseActivity implements View.OnClickLis
             toggleFullScreen();
             return;
         } else {
-            //先返回正常状态
+            // 일단 정상 상태로 되돌아가다
             if (orientationUtils.getScreenType() == ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE) {
                 videoPlayer.getFullscreenButton().performClick();
                 return;
             }
-            //释放所有
+            // 석방소유
             videoPlayer.setVideoAllCallBack(null);
         }
 

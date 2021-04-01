@@ -137,19 +137,19 @@ public class MainActivity extends BaseActivity implements ContentFragment.OnFrag
         switch (v.getId()) {
             case R.id.cl_search:
                 startActivity(new Intent(this, AppInstalledActivity.class));
-                Toast.makeText(this, "已安装应用", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Installed Applications", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.cl_history:
-                Toast.makeText(this, "历史", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "History", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.cl_login:
-                Toast.makeText(this, "登录", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Log In", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.cl_open_vip:
-                Toast.makeText(this, "开通VIP", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "VIP", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.tv_ad:
-                Toast.makeText(this, "新人礼包", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "TV Ad", Toast.LENGTH_SHORT).show();
                 break;
             default:
                 break;
@@ -278,7 +278,7 @@ public class MainActivity extends BaseActivity implements ContentFragment.OnFrag
         @Override
         public void run() {
             String titleJson = LocalJsonResolutionUtil.getJson(MainActivity.this, "MyTitle.json");
-            //转换为对象
+            // 객체로 전환
             Title title = LocalJsonResolutionUtil.JsonToObject(titleJson, Title.class);
             List<Title.DataBean> dataBeans = title.getData();
             if (dataBeans != null && dataBeans.size() > 0) {
@@ -405,7 +405,7 @@ public class MainActivity extends BaseActivity implements ContentFragment.OnFrag
                         Paint paint = mOldTitle.getPaint();
                         if (paint != null) {
                             paint.setFakeBoldText(false);
-                            //viewpager切页标题不刷新，调用invalidate刷新
+                            // viewpager 컷아웃 제목 새로 고치지 않고 invalidate로 새로 고침
                             mOldTitle.invalidate();
                         }
                     }
@@ -413,7 +413,7 @@ public class MainActivity extends BaseActivity implements ContentFragment.OnFrag
                     Paint paint = currentTitle.getPaint();
                     if (paint != null) {
                         paint.setFakeBoldText(true);
-                        //viewpager切页标题不刷新，调用invalidate刷新
+                        // viewpager 컷아웃 제목 새로 고치지 않고 invalidate로 새로 고침
                         currentTitle.invalidate();
                     }
                 }

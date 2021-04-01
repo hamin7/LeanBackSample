@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 #Tue Mar 23 16:02:22 KST 2021
 base.0=/home/hamin/LeanbackTvSample/app/build/intermediates/dex/debug/mergeDexDebug/out
+||||||| delete rows
+#Tue Mar 23 14:43:40 KST 2021
+base.0=/home/hamin/LeanbackTvSample/app/build/intermediates/dex/debug/mergeDexDebug/out
+=======
+#Tue Mar 30 10:34:38 KST 2021
+base.0=/home/hamin/LeanBackSample/app/build/intermediates/dex/debug/mergeDexDebug/out
+>>>>>>> main
 path.0=classes.dex
 renamed.0=classes.dex

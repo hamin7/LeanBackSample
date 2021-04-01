@@ -70,7 +70,6 @@ public class ContentFragment extends BaseLazyLoadFragment {
     @SuppressLint("HandlerLeak")
     private class MyHandler extends Handler {
 
-
         @Override
         public void handleMessage(Message msg) {
             switch (msg.what) {
@@ -80,7 +79,10 @@ public class ContentFragment extends BaseLazyLoadFragment {
                     if (content == null) {
                         break;
                     }
+
                     List<Content.DataBean> dataBeans = content.getData();
+
+                    // 영화 카드들 렌더링
                     for (int i = 0; i < dataBeans.size(); i++) {
                         Content.DataBean dataBean = dataBeans.get(i);
                         addItem(dataBean);
@@ -298,7 +300,7 @@ public class ContentFragment extends BaseLazyLoadFragment {
             Bundle b = new Bundle();
             b.putParcelable(MSG_BUNDLE_KEY_ADD_ITEM, content);
             msg.setData(b);
-            //延迟1秒模拟加载数据过程
+            // 데이터를 로딩하는 과정을 1초 지연합니다
             mHandler.sendMessageDelayed(msg, 1000);
 
         }
@@ -330,35 +332,35 @@ public class ContentFragment extends BaseLazyLoadFragment {
 
     private void addItem(Content.DataBean dataBean) {
         switch (dataBean.getContentCode()) {
-            case Constants.TYPE_ZERO:
-                ArrayObjectAdapter arrayObjectAdapter = new ArrayObjectAdapter(new TypeZeroContentPresenter());
-                List<Content.DataBean.WidgetsBean> listZero = dataBean.getWidgets();
-                if (listZero != null && listZero.size() > 2) {
-                    listZero = listZero.subList(0, 2);
-                }
-                arrayObjectAdapter.addAll(0, listZero);
-                ListRow listRow = new ListRow(arrayObjectAdapter);
-                addWithTryCatch(listRow);
-
-                break;
-            case Constants.TYPE_ONE:
-                ArrayObjectAdapter arrayObjectAdapterOne = new ArrayObjectAdapter(new TypeOneContentPresenter());
-                List<Content.DataBean.WidgetsBean> listOne = dataBean.getWidgets();
-                if (listOne == null) {
-                    return;
-                }
-                if (listOne.size() > 4) {
-                    listOne = listOne.subList(0, 4);
-                }
-                arrayObjectAdapterOne.addAll(0, listOne);
-                HeaderItem headerItem = null;
-                if (dataBean.getShowTitle()) {
-                    headerItem = new HeaderItem(dataBean.getTitle());
-                }
-                ListRow listRowOne = new ListRow(headerItem, arrayObjectAdapterOne);
-                addWithTryCatch(listRowOne);
-
-                break;
+//            case Constants.TYPE_ZERO:
+//                ArrayObjectAdapter arrayObjectAdapter = new ArrayObjectAdapter(new TypeZeroContentPresenter());
+//                List<Content.DataBean.WidgetsBean> listZero = dataBean.getWidgets();
+//                if (listZero != null && listZero.size() > 2) {
+//                    listZero = listZero.subList(0, 2);
+//                }
+//                arrayObjectAdapter.addAll(0, listZero);
+//                ListRow listRow = new ListRow(arrayObjectAdapter);
+//                addWithTryCatch(listRow);
+//
+//                break;
+//            case Constants.TYPE_ONE:
+//                ArrayObjectAdapter arrayObjectAdapterOne = new ArrayObjectAdapter(new TypeOneContentPresenter());
+//                List<Content.DataBean.WidgetsBean> listOne = dataBean.getWidgets();
+//                if (listOne == null) {
+//                    return;
+//                }
+//                if (listOne.size() > 4) {
+//                    listOne = listOne.subList(0, 4);
+//                }
+//                arrayObjectAdapterOne.addAll(0, listOne);
+//                HeaderItem headerItem = null;
+//                if (dataBean.getShowTitle()) {
+//                    headerItem = new HeaderItem(dataBean.getTitle());
+//                }
+//                ListRow listRowOne = new ListRow(headerItem, arrayObjectAdapterOne);
+//                addWithTryCatch(listRowOne);
+//
+//                break;
 //            case Constants.TYPE_TWO:
 //                ArrayObjectAdapter arrayObjectAdapterTwo = new ArrayObjectAdapter(new TypeTwoContentPresenter());
 //                List<Content.DataBean.WidgetsBean> listTwo = dataBean.getWidgets();
@@ -430,23 +432,23 @@ public class ContentFragment extends BaseLazyLoadFragment {
 //                ListRow listRowFive = new ListRow(headerItemFive, arrayObjectAdapterFive);
 //                addWithTryCatch(listRowFive);
 //                break;
-//            case Constants.TYPE_SIX:
-//                ArrayObjectAdapter arrayObjectAdapterSix = new ArrayObjectAdapter(new TypeSixContentPresenter());
-//                List<Content.DataBean.WidgetsBean> listSix = dataBean.getWidgets();
-//                if (listSix == null) {
-//                    return;
-//                }
-//                if (listSix.size() > 6) {
-//                    listSix = listSix.subList(0, 6);
-//                }
-//                arrayObjectAdapterSix.addAll(0, listSix);
-//                HeaderItem headerItemSix = null;
-//                if (dataBean.getShowTitle()) {
-//                    headerItemSix = new HeaderItem(dataBean.getTitle());
-//                }
-//                ListRow listRowSix = new ListRow(headerItemSix, arrayObjectAdapterSix);
-//                addWithTryCatch(listRowSix);
-//                break;
+            case Constants.TYPE_SIX:
+                ArrayObjectAdapter arrayObjectAdapterSix = new ArrayObjectAdapter(new TypeSixContentPresenter());
+                List<Content.DataBean.WidgetsBean> listSix = dataBean.getWidgets();
+                if (listSix == null) {
+                    return;
+                }
+                if (listSix.size() > 6) {
+                    listSix = listSix.subList(0, 6);
+                }
+                arrayObjectAdapterSix.addAll(0, listSix);
+                HeaderItem headerItemSix = null;
+                if (dataBean.getShowTitle()) {
+                    headerItemSix = new HeaderItem(dataBean.getTitle());
+                }
+                ListRow listRowSix = new ListRow(headerItemSix, arrayObjectAdapterSix);
+                addWithTryCatch(listRowSix);
+                break;
 //            case Constants.TYPE_SEVEN:
 //                TypeSeven typeSeven = new TypeSeven();
 //                List<Content.DataBean.WidgetsBean> listSeven = dataBean.getWidgets();
@@ -514,9 +516,9 @@ public class ContentFragment extends BaseLazyLoadFragment {
         public void onScrollStateChanged(@NonNull RecyclerView recyclerView, int newState) {
             super.onScrollStateChanged(recyclerView, newState);
             switch (newState) {
-                //当屏幕滚动且用户使用的触碰或手指还在屏幕上，停止加载图片
+                // 화면이 스크롤되고 사용자가 사용할 터치나 손가락이 화면에 있을 때 그림을 불러오지 않기
                 case RecyclerView.SCROLL_STATE_DRAGGING:
-                    //由于用户的操作，屏幕产生惯性滑动，停止加载图片
+                    // 사용자의 조작으로, 화면에 관성 미끄럼이 생겨, 그림을 싣는 것을 멈추었다.
                 case RecyclerView.SCROLL_STATE_SETTLING:
                     Glide.with(mActivity).pauseRequests();
                     break;

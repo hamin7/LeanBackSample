@@ -26,7 +26,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        tools:text="欢乐剧场" />
+        tools:text="환희극장" />
 
     <View
         android:id="@+id/view"
@@ -42,7 +42,7 @@
         android:id="@+id/tv_type_five_desc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="一家人在一起最开心"
+        tools:text="가족이 함께 있으면 가장 즐겁습니다."
         android:textColor="@color/colorWhite"
         android:textSize="12sp"
         android:paddingStart="17dp"
